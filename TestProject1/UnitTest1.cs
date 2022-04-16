@@ -70,5 +70,23 @@ namespace TestProject1
             Assert.AreEqual("FizzFuzz", output);
 
         }
+
+
+       [Test]
+        public void Test3_5_10()
+        {
+            //arrange
+            int input = 30;
+            // call method for processing
+            // act
+            string output = FizzBuzzer.Getvalue(input);
+
+
+            //asert
+            Assert.AreEqual("FizzFuzzFulla", output);
+
+        }
+
+
     }
 }

@@ -17,6 +17,7 @@ namespace DummyApp
             {
                 output += "Fuzz";
             }
+
             output += input.ToString();
             return output;
         }
