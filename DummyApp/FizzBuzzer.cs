@@ -17,8 +17,15 @@ namespace DummyApp
             {
                 output += "Fuzz";
             }
+            if (input % 10 == 0)
+            {
+                output += "Fulla";
+            }
+            else
+            {
+                output += input.ToString();
 
-            output += input.ToString();
+            }
             return output;
         }
     }
